@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+        }
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        .navbar .max-width {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .navbar .logo a {
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .navbar .menu {
+            list-style: none;
+            display: flex;
+        }
+        .navbar .menu li {
+            margin: 0 10px;
+        }
+        .navbar .menu li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .navbar .menu li a:hover {
+            background: #fff;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .sub-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .work-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .work {
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .work img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s;
+        }
+        .work .layer {
+            padding: 20px;
+            position: relative;
+            background: #fff;
+        }
+        .work h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .work p {
+            margin-bottom: 10px;
+        }
+        .work a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            display: inline-block;
+            transition: color 0.3s;
+        }
+        .work a:hover {
+            color: #007BFF;
+        }
+        .work:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        .work:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Siddharth<span>Jha.</span></a></div>
+            <ul class="menu">
+                <li><a href="index.html#home" class="menu-btn">Home</a></li>
+                <li><a href="index.html#about" class="menu-btn">About</a></li>
+                <li><a href="index.html#services" class="menu-btn">Services</a></li>
+                <li><a href="index.html#skills" class="menu-btn">Skills</a></li>
+                <li><a href="index.html#projects" class="menu-btn">Projects</a></li>
+                <li><a href="index.html#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="sub-title">All Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/responsive-web-design.jpeg" alt="Responsive web design">
+                <div class="layer">
+                    <h3>Responsive Web Page</h3>
+                    <p>This is a responsive webpage which contains home, services, contacts.</p>
+                    <a href="https://siddoodle.github.io/PRODIGY_WD_01/" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/klee-1949981_1280.jpg" alt="Tic Tac Toe game">
+                <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>A simple Tic Tac Toe game to play when you're bored. Play with friends or play with AI!</p>
+                    <a href="https://live-website-link-2.com" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/stopwatch-hands-black-and-white-start-wallpaper-preview.jpg" alt="Stopwatch">
+                <div class="layer">
+                    <h3>Stopwatch</h3>
+                    <p>A simple Stopwatch design which works perfectly well.</p>
+                    <a href="https://live-website-link-3.com" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/weather.jpg" alt="Weather app">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>A weather application that shows current weather details for any city.</p>
+                    <a href="https://live-website-link-4.com" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/quiz.jpg" alt="Quiz application">
+                <div class="layer">
+                    <h3>Quiz Application</h3>
+                    <p>An online Quiz application with challenging questions. It also has a 60 seconds timer.</p>
+                    <a href="https://live-website-link-4.com" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            <!-- Add more projects here -->
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
